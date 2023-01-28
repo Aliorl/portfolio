@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfolio</title>
+  <link rel="icon" href="images/icon.svg">
+  <meta name="title" property="og:title" content="Portfolio" />
+  <meta name="description" content="Alicja Orlik - Front-End Developer - Portfolio" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/logo.css" />
+  <link rel="stylesheet" href="css/navigation.css" />
+  <link rel="stylesheet" href="css/container.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/section.css" />
+  <link rel="stylesheet" href="css/skills.css" />
+  <link rel="stylesheet" href="css/table.css" />
+  <link rel="stylesheet" href="css/projects.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMontserrat:400,700&display=swap&subset=latin-ext"
+    rel="stylesheet" />
+
+  <link rel="icon" type="image/svg" sizes="192x192" href="icon.svg" />
+  <meta property="og:image" content="images/share.png" />
+
+</head>
+
+<body>
+  <nav class="navigation js-navigation">
+    <div class="container">
+      <div class="navigation__row">
+        <div class="navigation__items js-navigation__items">
+          <a class="navigation__item" href="#">
+            About me
+          </a>
+          <a class="navigation__item" href="#skills">
+            My skillset
+          </a>
+          <a class="navigation__item" href="#projects">
+            My projects
+          </a>
+          <a class="navigation__item" href="#contact">
+            Contact
+          </a>
+        </div>
+        <button class="js-navigation__mobile-button navigation__mobile-button" type="button">
+          <img class="navigation__mobile-button-image" src="images/navigation.svg" alt="Open and close menu" />
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section__inner">
+          <img src="images/Profilowe.jpg" class="section__image" alt="Alicja Orlik" />
+          <div class="section__text">
+            <h2 class="section__header">
+              Alicja Orlik
+            </h2>
+            <p class="section__paragraph">
+              I am a freelance and hobby frontend developer. I started with programming in
+              2020 during postgraduate studies at WSB Poznań. During these studies I gained the basic knowledge to be a
+              fullstack developer, because I learned the SQL language and MySQL support.
+              I got also to know the basics of HTML/CSS, as well as the basics of PHP and Javascript. My first projects
+              were created as part of my own learning. While studying at WSB, I started to build websites in CRM
+              Wordpress and developed two group projects in accordance with SCRUM principles.
+              My first individual project "Student's Diary" uses HTML, CSS and PHP language.
+              Later, I decided to learn more Javascript. I am also attending a additional course on YouCode where I am
+              learning about the React framework. I am learning also the Vue.js framework on my own.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--blue" id="skills">
+      <div class="container">
+        <h2 class="header">My skillset</h2>
+        <div class="skills__column">
+          <div class="skills__item">
+            <ul class="skills__list">
+              <h3 class="skills__header">Technical skills</h3>
+              <li><span class="skills__listItem">HTML</span></li>
+              <li><span class="skills__listItem">CSS</span></li>
+              <li><span class="skills__listItem">BEM</span></li>
+              <li><span class="skills__listItem">GIT</span></li>
+              <li><span class="skills__listItem">PHP</span></li>
+              <li><span class="skills__listItem">CMS (Wordpress)</span></li>
+              <li><span class="skills__listItem">JavaScript</span></li>
+              <li><span class="skills__listItem">SQL/MySQL</span></li>
+            </ul>
+          </div>
+          <div class="skills__column">
+            <div class="skills__item">
+              <ul class="skills__list">
+                <h3 class="skills__header">Soft skills</h3>
+                <li><span class="skills__listItem">Scrum</span></li>
+                <li><span class="skills__listItem">Teamwork</span></li>
+                <li><span class="skills__listItem">Management skills</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <h2 class="header">My projects</h2>
+
+      <div class="container">
+        <div class="projects">
+
+          <article class="projects__item">
+            <a href="https://aliorl.github.io/ToDoList/">
+              <img class="projects__image" alt="ToDoList" src="images/ToDoList.gif">
+            </a>
+            <h3 class="projects__name">ToDoList</h3>
+            <p class="projects__content">A simple To Do List App which allows you to add tasks to do, to mark the tasks
+              as done or to remove tasks from the task list.
+            </p>
+            <div>
+              <a class="projects__link" href="https://aliorl.github.io/ToDoList/">Demo</a>
+            </div>
+            <div>
+              <a class="projects__link" href="https://github.com/Aliorl/ToDoList">Repository</a>
+            </div>
+            <div>
+              <a class="projects__technologies">HTML/CSS/JS</a>
+            </div>
+            <div>
+
+            </div>
+          </article>
+
+          <article class="projects__item">
+            <a href="https://melodious-syrniki-62f54f.netlify.app/">
+              <img class="projects__image" alt="Shopping List" src="images/shopping-list.gif">
+            </a>
+            <h3 class="projects__name">Shopping List App Vue.js</h3>
+            <p class="projects__content">A simple App to create to do lists. The application allows you to delete a task
+              from the list after its completion.</p>
+            <div>
+              <a class="projects__link" href="https://melodious-syrniki-62f54f.netlify.app/">Demo</a>
+            </div>
+            <div>
+              <a class="projects__link" href="https://github.com/Aliorl/shopping-list-app">Repository</a>
+            </div>
+            <div>
+              <a class="projects__technologies">HTML/CSS/JS(Vue.js)</a>
+            </div>
+          </article>
+
+          <article class="projects__item">
+            <a href="https://aliorl.github.io/currency-converter/">
+              <img class="projects__image" alt="Currency converter" src="images/currency-converter.gif">
+            </a>
+            <h3 class="projects__name">Currency Converter</h3>
+            <p class="projects__content">
+              A simple currency converter which allows you to convert between few example currencies. Rates come from a
+              local file.
+            </p>
+            <div>
+              <a class="projects__link" href="https://aliorl.github.io/currency-converter/">Demo</a>
+            </div>
+            <div>
+              <a class="projects__link" href="https://github.com/Aliorl/currency-converter">Repository</a>
+            </div>
+            <div>
+              <a class="projects__technologies">HTML/CSS/JS</a>
+            </div>
+          </article>
+
+          <article class="projects__item">
+            <a href="http://slodkiezycie.eu/kalkulatorbolusa/">
+              <img class="projects__image" alt="Bolus Calculator" src="images/bolus-calculator.gif">
+            </a>
+            <h3 class="projects__name">Bolus Calculator</h3>
+            <p class="projects__content">Calculator that allows people with diabetes to calculate the dose of insulin to
+              be injected. Calculations are made based on user input. The app takes into account parameters that
+              determine the
+              amount of insulin to be administered, such as: individual insulin sensitivity, current blood glucose level
+              and amount of carbohydrates consumed.</p>
+            <div>
+              <a class="projects__link" href="http://slodkiezycie.eu/kalkulatorbolusa/">Demo</a>
+            </div>
+            <div>
+              <a class="projects__link" href="https://aliorl.github.io/kalkulatorbolusa/">Repository</a>
+            </div>
+            <div>
+              <a class="projects__technologies">HTML/CSS/JS</a>
+            </div>
+          </article>
+
+          <article class="projects__item">
+            <a href="http://psximgjxed.cfolks.pl/">
+              <img class="projects__image" alt="Student's Diary" src="images/diary.gif">
+            </a>
+            <h3 class="projects__name">Student's Diary</h3>
+            <p class="projects__content">A diary which allows you after logging in to view, add, edit and delete
+              data from the database. Sample login details for testing the application are preseted on the login page.
+              After
+              logging in, the user is redirected to the home page.</p>
+            <div>
+              <a class="projects__link" href="http://psximgjxed.cfolks.pl/">Demo</a>
+            </div>
+            <div>
+              <a class="projects__link" href="https://github.com/Aliorl/dziennik">Repository</a>
+            </div>
+            <div>
+              <a class="projects__technologies">HTML/CSS/JS/PHP</a>
+            </div>
+          </article>
+
+          <article class="projects__item">
+            <a href="https://aliorl.github.io/CV/">
+              <img class="projects__image" alt="CV" src="images/CV.gif">
+            </a>
+            <h3 class="projects__name">CV</h3>
+            <p class="projects__content">My CV containing supplementary data about my education and work
+              experience.</p>
+            <div>
+              <a class="projects__link" href="https://aliorl.github.io/CV/">Demo</a>
+            </div>
+            <div>
+              <a class="projects__link" href="https://github.com/Aliorl/CV/">Repository</a>
+            </div>
+            <div>
+              <a class="projects__technologies">HTML/CSS/JS</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" id="contact">
+    <a class="footer__link" href="tel:+48606429749"><span class="footer__highlight">Phone: </span>+48606429749</a>
+    <a class="footer__link" href="mailto:alicja.k.orlik@gmail.com"><span class="footer__highlight">Mail:
+      </span>alicja.k.orlik@gmail.com</a>
+  </footer>
+
+  <script src="js/mobile-navigation.js"></script>
+</body>
+
+</html>

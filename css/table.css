@@ -1,0 +1,19 @@
+.table {
+    border-collapse: collapse;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .table__cell {
+    border: 1px solid #eee;
+    padding: 10px;
+    font-size: 16px;
+    min-width: 200px;
+  }
+  
+  .table__cell--row:hover {
+    background: #344969;
+  }
+  
