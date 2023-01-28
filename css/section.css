@@ -83,30 +83,4 @@
   line-height: 1.5;
 }
 
-.section__more-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 20px;
-}
-
-.section__more-links-link {
-  text-decoration: none;
-  background: #e08e16;
-  color: white;
-  padding: 20px;
-  font-size: 18px;
-  -webkit-transition: 0.5s -webkit-filter;
-  transition: 0.5s -webkit-filter;
-  transition: 0.5s filter;
-  transition: 0.5s filter, 0.5s -webkit-filter;
-}
-
-.section__more-links-link:hover {
-  -webkit-filter: brightness(125%);
-          filter: brightness(125%);
-}
 /*# sourceMappingURL=section.css.map */
