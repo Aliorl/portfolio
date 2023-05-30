@@ -15,6 +15,7 @@
 .footer__link {
     text-decoration: none;
     color: white;
+    font-size: smaller;
     margin: 10px;
 }
 

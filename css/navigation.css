@@ -48,7 +48,7 @@
   .navigation__items {
     pointer-events: none;
     position: fixed;
-    background: white;
+    background: #5b707e;
     text-align: center;
     top: 0;
     left: 0;
